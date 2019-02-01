@@ -2,3 +2,5 @@
 artists.json
 .vagrant
 *.log
+bin
+obj
