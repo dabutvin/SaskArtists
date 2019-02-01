@@ -16,7 +16,7 @@ namespace magick
                 IgnoreUnsupportedFormats = true,
             };
 
-            var files = Directory.EnumerateFiles(Path.GetFullPath("../www/"), "*.png", SearchOption.AllDirectories);
+            var files = Directory.EnumerateFiles(Path.GetFullPath("../www/artists/rarnott/"), "*.jpg", SearchOption.AllDirectories);
             Console.WriteLine($"start: {files.Count()}");
             var count = 0;
             Parallel.ForEach(files, file =>
